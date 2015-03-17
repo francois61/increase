@@ -78,3 +78,8 @@ $di->set('session', function () {
 
     return $session;
 });
+
+$di->set("jquery",function(){
+    $jquery= new Ajax\JsUtils(array("driver"=>"Jquery"));
+    return $jquery;
+});
