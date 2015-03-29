@@ -5,3 +5,5 @@ A Phalcon web application to manage the progress of projects, and improve commun
 
 - [x] fork your own copy of this repository.
 - [x] read the project specifications : [Increase project specifications](http://slamwiki.kobject.net/slam4/php/phalcon/project/increase/)
+
+Projet réalisé par Alexis Lambert : Alexlbt et François Lemoult : francois61
