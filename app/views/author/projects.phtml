@@ -8,10 +8,10 @@ echo "<h1> Mes projets ".$user->identite."</h1> ";
 
 
 
-for($i=0; $i < count($nameprojet);$i++ ) {
-	echo $nameprojet[$i]->nom;
+for($i=0; $i < count($projet);$i++ ) {
+	echo $projet[$i]->nom;
 	echo '</br>';
-	echo '<a  href="/increase/author/project/'.$nameprojet[$i]->id.'" type=button>Ouvrir...</a></br>';
+	echo '<a  href="/increase/author/project/'.$projet[$i]->id.'" type=button>Ouvrir...</a></br>';
 	}
 
 	echo $this->getContent();
