@@ -10,6 +10,14 @@ class SessionController extends ControllerBase
         $this->tag->setTitle('Sign Up/Sign In');
         parent::initialize();
     }
+
+    /*public function indexAction()
+    {
+        if (!$this->request->isPost()) {
+            $this->tag->setDefault('email', 'demo@phalconphp.com');
+            $this->tag->setDefault('password', 'phalcon');
+        }
+    }*/
 	
     private function _registerSession(Users $user)
     {
