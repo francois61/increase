@@ -1,0 +1,28 @@
+<?php
+echo "<h1>". $projet->getnom()." </h1>";
+echo "<div class=\"panel panel-warning\"><div class=\"panel-heading\">Details du projet</div><div class=\"panel-body\"><h3>Description</h3></br><p>".$projet->getDescription()."</p></hr><p>Date lancement : ".$projet->getDateL().", Date fin prevue : ".$projet->getDateF()."</p></div></div>";
+?>
+
+
+<div class="panel panel-warning">
+<div class="panel-heading">Equipes</div>
+<div id="detailProject" class="panel-body" /></div>
+
+ <a class="btn btn-default" id="btnMessages">Voir les messages</a>
+	<div class="panel panel-warning">
+	<div class="panel-heading" id="listeMessages" >
+	<div id="dtlMessage"/></div>
+
+	
+	
+<?php 
+
+
+echo '<a href="/increase/user/projects/'.$projet->getIdClient().'" class="btn btn-default" id="Retour">Fermer le projet</a>';
+
+
+?>
+
+
+
+<?=$script_foot ?>
