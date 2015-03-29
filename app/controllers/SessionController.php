@@ -11,13 +11,13 @@ class SessionController extends ControllerBase
         parent::initialize();
     }
 
-    /*public function indexAction()
+    public function indexAction()
     {
         if (!$this->request->isPost()) {
             $this->tag->setDefault('email', 'demo@phalconphp.com');
             $this->tag->setDefault('password', 'phalcon');
         }
-    }*/
+    }
 	
     private function _registerSession(Users $user)
     {
